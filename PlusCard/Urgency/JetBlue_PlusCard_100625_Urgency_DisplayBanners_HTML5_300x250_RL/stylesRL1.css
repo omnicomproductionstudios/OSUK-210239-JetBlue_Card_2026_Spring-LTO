@@ -191,7 +191,7 @@ video {
   height: 250px;
   background-image: url(./images/shine.png);
   background-size: contain;
-  background-position: 160px 0px;
+  background-position: 142px 0px;
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/mask.png);

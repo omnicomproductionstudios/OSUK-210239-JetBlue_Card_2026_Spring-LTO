@@ -196,3 +196,6 @@ video {
   -webkit-mask-position: left;
   mask-image: url(./images/mask.png);
 } 
+#card, #logo, #cta, #term{
+  z-index: 1;
+}

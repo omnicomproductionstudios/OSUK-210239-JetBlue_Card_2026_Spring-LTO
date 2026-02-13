@@ -5,7 +5,7 @@ var startTime;
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-tl.set(['#copy2', '#copy3', '#copy4', '#cta'], { y: 20, autoAlpha: 0 }); // Ensure copy2 is hidden and moved down
+tl.set(['#copy2', '#copy3', '#copy4', '#cta'], { y: 20, autoAlpha: 0 }); 
 
 tl.addLabel('frame1', 0)
   .to(copy1, 1, { autoAlpha: 1, ease: "power1.inOut" }, 'frame1')

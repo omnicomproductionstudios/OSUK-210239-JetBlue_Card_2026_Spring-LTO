@@ -157,6 +157,7 @@ video {
   line-height: 33.5px;
   color: #0000aa;
   letter-spacing: -0.5px;
+  will-change: transform;
 }
 .copy4 span{
   color: #ff6433;
@@ -174,6 +175,7 @@ video {
   text-align: center;
   line-height: 27px;
   border-radius: 3px;
+  will-change: transform;
 }
 
 .term{

@@ -218,6 +218,3 @@ video {
   mask-image: url(./images/mask.png);
   z-index: 1;
 }
-#card, #logo, #cta, #term{
-  z-index: 1;
-}

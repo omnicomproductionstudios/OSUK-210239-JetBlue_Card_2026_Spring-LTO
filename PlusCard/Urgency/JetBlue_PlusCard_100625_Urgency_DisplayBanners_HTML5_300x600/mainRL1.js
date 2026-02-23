@@ -5,7 +5,7 @@ var startTime;
 init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
-tl.set(['#copy2', '#copy3', '#copy4', '#cta'], { y: 20, autoAlpha: 0 }); 
+tl.set(['#copy2', '#copy3'], { y: 20, autoAlpha: 0 }); 
 
 tl.addLabel('frame1', 0)
   .to(copy1, 1, { autoAlpha: 1, ease: "power1.inOut" }, 'frame1')
@@ -17,10 +17,8 @@ tl.addLabel('frame1', 0)
   .addLabel('frame3', 'frame2+=4')
   .to(copy3, 1, { y: 0, autoAlpha: 1, ease: "power3.out" }, 'frame3')
   .addLabel('frame4', 'frame3+=4')
-    .to(copy3, 0.5, { autoAlpha: 0, ease: "power1.inOut" }, 'frame4')
-    .to('#lastFrame',0.8,{y: 0, ease: Power1.easeInOut}, 'frame4+=0.2')
-    .to(['#copy4', '#cta'],0.8,{y: 0, autoAlpha:1, ease: "power3.out"}, 'frame4+=1')
-    .to('#shine', 0.5, {backgroundPosition: '265px 0px'}, 'frame4+=1.5');
+    .to('#lastFrame',0.6,{y: 0, ease: Power2.easeInOut}, 'frame4')
+    .to('#shine', 0.5, {backgroundPosition: '265px 0px'}, 'frame4+=1');
 }
 
 function setRollover() {

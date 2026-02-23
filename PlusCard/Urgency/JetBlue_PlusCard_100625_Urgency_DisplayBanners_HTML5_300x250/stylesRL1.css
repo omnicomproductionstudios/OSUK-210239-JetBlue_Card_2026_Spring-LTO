@@ -203,6 +203,6 @@ video {
   top: -10px;
   z-index: 1;
 }
-#card, #logo, #cta, #term{
+/* #card, #logo, #cta, #term{
   z-index: 1;
-}
+} */
